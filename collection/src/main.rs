@@ -1,9 +1,9 @@
-fn largest<T>(list: &[T]) -> T {
+fn largest<T: std::cmp::PartialOrd + std::marker::Copy>(list: &[T]) -> T {
     let mut largest = list[0];
 
-    for &item in list.iter() {
-        if item > largest {
-            largest = item;
+    for item in list.iter() {
+        if item > &largest {
+            largest = *item;
         }
     }
 
