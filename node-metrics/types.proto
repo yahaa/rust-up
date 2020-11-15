@@ -1,0 +1,48 @@
+syntax = "proto3";
+
+package psutil;
+
+service NodeMetrics {
+  rpc summary(QueryNodeInfo) returns (NodeInfo) {}
+  rpc memory(QueryMemoryInfo)returns(MemoryInfo){}
+  rpc cpu(QueryCPUInfo)returns(CPUInfo){}
+  rpc load(QueryLoadInfo)returns(LoadInfo){}
+}
+
+message QueryNodeInfo {}
+message QueryCPUInfo {}
+message QueryMemoryInfo {}
+message QueryLoadInfo {}
+
+
+message StatusPoint {
+  uint64 usage = 1;
+  double percents = 2;
+}
+
+message CPUInfo {
+  // cpu 核数
+  int32 cores = 1;
+  // status.usage 单位为  m 与 k8s cpu 单位保持一致
+  repeated StatusPoint status = 2;
+}
+
+message MemoryInfo {
+  uint64 total = 1;
+  // status.usage 单位为 todo 待确认
+  repeated StatusPoint status = 2;
+}
+
+message LoadInfo {
+  // cpu 核数
+  int32 cores = 1;
+  double load1 = 2;
+  double load5 = 3;
+  double load15 = 4;
+}
+
+message NodeInfo{
+  CPUInfo cpu = 1;
+  MemoryInfo memory = 2;
+  LoadInfo load = 3;
+}
