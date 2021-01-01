@@ -20,11 +20,15 @@ impl<T> List<T> {
     }
 
     pub fn push(&mut self, elem: T) {
+        // take 函数可以理解为是 mem::replace 函数的封装
+        // take 函数会 把 self.head 设置为 None 并且不会夺取其所有权
         let new_node = Box::new(Node {
             elem,
             next: self.head.take(),
         });
 
+        // 因为上面使用了 take 函数，所以 self.head 的所有权没有被夺取，也就是说 self.head 还是完整的
+        // 所以这里并不会出现报错
         self.head = Some(new_node);
     }
 
