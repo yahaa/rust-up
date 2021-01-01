@@ -10,6 +10,94 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8349c0d9-8562-4fb4-a9fa-a4420b1e44db" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/second.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/second.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/debug/.fingerprint/lists-2c7ca10474eced5c/dep-test-lib-lists" beforeDir="false" afterPath="$PROJECT_DIR$/target/debug/.fingerprint/lists-2c7ca10474eced5c/dep-test-lib-lists" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/debug/.fingerprint/lists-2c7ca10474eced5c/output-test-lib-lists" beforeDir="false" afterPath="$PROJECT_DIR$/target/debug/.fingerprint/lists-2c7ca10474eced5c/output-test-lib-lists" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/debug/.fingerprint/lists-4da2ad349c017093/dep-lib-lists" beforeDir="false" afterPath="$PROJECT_DIR$/target/debug/.fingerprint/lists-4da2ad349c017093/dep-lib-lists" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/debug/.fingerprint/lists-68d0f7ae6bfe9c0e/dep-test-lib-lists" beforeDir="false" afterPath="$PROJECT_DIR$/target/debug/.fingerprint/lists-68d0f7ae6bfe9c0e/dep-test-lib-lists" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/debug/.fingerprint/lists-f5c2360c44c6d81e/dep-lib-lists" beforeDir="false" afterPath="$PROJECT_DIR$/target/debug/.fingerprint/lists-f5c2360c44c6d81e/dep-lib-lists" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/debug/.fingerprint/lists-f5c2360c44c6d81e/output-lib-lists" beforeDir="false" afterPath="$PROJECT_DIR$/target/debug/.fingerprint/lists-f5c2360c44c6d81e/output-lib-lists" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/debug/deps/liblists-4da2ad349c017093.rlib" beforeDir="false" afterPath="$PROJECT_DIR$/target/debug/deps/liblists-4da2ad349c017093.rlib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/debug/deps/liblists-4da2ad349c017093.rmeta" beforeDir="false" afterPath="$PROJECT_DIR$/target/debug/deps/liblists-4da2ad349c017093.rmeta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/debug/deps/liblists-f5c2360c44c6d81e.rmeta" beforeDir="false" afterPath="$PROJECT_DIR$/target/debug/deps/liblists-f5c2360c44c6d81e.rmeta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/debug/deps/lists-2c7ca10474eced5c.d" beforeDir="false" afterPath="$PROJECT_DIR$/target/debug/deps/lists-2c7ca10474eced5c.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/debug/deps/lists-4da2ad349c017093.d" beforeDir="false" afterPath="$PROJECT_DIR$/target/debug/deps/lists-4da2ad349c017093.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/debug/deps/lists-68d0f7ae6bfe9c0e" beforeDir="false" afterPath="$PROJECT_DIR$/target/debug/deps/lists-68d0f7ae6bfe9c0e" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/debug/deps/lists-68d0f7ae6bfe9c0e.d" beforeDir="false" afterPath="$PROJECT_DIR$/target/debug/deps/lists-68d0f7ae6bfe9c0e.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/debug/deps/lists-68d0f7ae6bfe9c0e.dSYM/Contents/Resources/DWARF/lists-68d0f7ae6bfe9c0e" beforeDir="false" afterPath="$PROJECT_DIR$/target/debug/deps/lists-68d0f7ae6bfe9c0e.dSYM/Contents/Resources/DWARF/lists-68d0f7ae6bfe9c0e" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/debug/deps/lists-f5c2360c44c6d81e.d" beforeDir="false" afterPath="$PROJECT_DIR$/target/debug/deps/lists-f5c2360c44c6d81e.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/debug/incremental/lists-1fztc0st108u1/s-fu1bn4i9vl-1m5q7bw-2x3wd949m8yue/16w8imk0c78tozhm.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/debug/incremental/lists-1fztc0st108u1/s-fu1bn4i9vl-1m5q7bw-2x3wd949m8yue/1ge63roh76cvxyb8.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/debug/incremental/lists-1fztc0st108u1/s-fu1bn4i9vl-1m5q7bw-2x3wd949m8yue/1hpfqiy26ttk2963.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/debug/incremental/lists-1fztc0st108u1/s-fu1bn4i9vl-1m5q7bw-2x3wd949m8yue/1q6vzm5acpqhqgx2.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/debug/incremental/lists-1fztc0st108u1/s-fu1bn4i9vl-1m5q7bw-2x3wd949m8yue/1r6hsirtp1ldh6wh.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/debug/incremental/lists-1fztc0st108u1/s-fu1bn4i9vl-1m5q7bw-2x3wd949m8yue/1txvwrniiyj0yhy3.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/debug/incremental/lists-1fztc0st108u1/s-fu1bn4i9vl-1m5q7bw-2x3wd949m8yue/1u7narzjp5786u0u.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/debug/incremental/lists-1fztc0st108u1/s-fu1bn4i9vl-1m5q7bw-2x3wd949m8yue/28zv2afpq568w5jw.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/debug/incremental/lists-1fztc0st108u1/s-fu1bn4i9vl-1m5q7bw-2x3wd949m8yue/2bxmeh4dz6u36dom.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/debug/incremental/lists-1fztc0st108u1/s-fu1bn4i9vl-1m5q7bw-2x3wd949m8yue/2ej2817u58mt0zov.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/debug/incremental/lists-1fztc0st108u1/s-fu1bn4i9vl-1m5q7bw-2x3wd949m8yue/2ihq3h07092zjno.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/debug/incremental/lists-1fztc0st108u1/s-fu1bn4i9vl-1m5q7bw-2x3wd949m8yue/2ojyu7ljwmygt7eb.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/debug/incremental/lists-1fztc0st108u1/s-fu1bn4i9vl-1m5q7bw-2x3wd949m8yue/2pxhr58ccbmbhd4j.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/debug/incremental/lists-1fztc0st108u1/s-fu1bn4i9vl-1m5q7bw-2x3wd949m8yue/2qdjgvqjfdhaaml8.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/debug/incremental/lists-1fztc0st108u1/s-fu1bn4i9vl-1m5q7bw-2x3wd949m8yue/2t23kciibnxfgxkm.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/debug/incremental/lists-1fztc0st108u1/s-fu1bn4i9vl-1m5q7bw-2x3wd949m8yue/33kfg6jsxqz28916.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/debug/incremental/lists-1fztc0st108u1/s-fu1bn4i9vl-1m5q7bw-2x3wd949m8yue/3ddqaelu64jamhqv.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/debug/incremental/lists-1fztc0st108u1/s-fu1bn4i9vl-1m5q7bw-2x3wd949m8yue/3e6i2ezvnmubg8uf.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/debug/incremental/lists-1fztc0st108u1/s-fu1bn4i9vl-1m5q7bw-2x3wd949m8yue/3hjkocuhc3bc5kvw.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/debug/incremental/lists-1fztc0st108u1/s-fu1bn4i9vl-1m5q7bw-2x3wd949m8yue/3ildj55hx2tc0kyd.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/debug/incremental/lists-1fztc0st108u1/s-fu1bn4i9vl-1m5q7bw-2x3wd949m8yue/3o8hwo4zvaayni8u.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/debug/incremental/lists-1fztc0st108u1/s-fu1bn4i9vl-1m5q7bw-2x3wd949m8yue/3p3mezqzsj8jd7ua.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/debug/incremental/lists-1fztc0st108u1/s-fu1bn4i9vl-1m5q7bw-2x3wd949m8yue/3wx1bilgpk9ytdeu.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/debug/incremental/lists-1fztc0st108u1/s-fu1bn4i9vl-1m5q7bw-2x3wd949m8yue/3y68ui8w84qcap39.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/debug/incremental/lists-1fztc0st108u1/s-fu1bn4i9vl-1m5q7bw-2x3wd949m8yue/40ei4jmo0y15ui6n.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/debug/incremental/lists-1fztc0st108u1/s-fu1bn4i9vl-1m5q7bw-2x3wd949m8yue/4ncs4cimi6yyfv5e.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/debug/incremental/lists-1fztc0st108u1/s-fu1bn4i9vl-1m5q7bw-2x3wd949m8yue/55eiu4d2ozpj261d.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/debug/incremental/lists-1fztc0st108u1/s-fu1bn4i9vl-1m5q7bw-2x3wd949m8yue/57eu7rpx98igfuib.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/debug/incremental/lists-1fztc0st108u1/s-fu1bn4i9vl-1m5q7bw-2x3wd949m8yue/59fzms7vwxelpetu.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/debug/incremental/lists-1fztc0st108u1/s-fu1bn4i9vl-1m5q7bw-2x3wd949m8yue/59uwzulkg0i1qjxc.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/debug/incremental/lists-1fztc0st108u1/s-fu1bn4i9vl-1m5q7bw-2x3wd949m8yue/5eencbxsmz5nyjqk.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/debug/incremental/lists-1fztc0st108u1/s-fu1bn4i9vl-1m5q7bw-2x3wd949m8yue/9n9w5jcxymszwfq.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/debug/incremental/lists-1fztc0st108u1/s-fu1bn4i9vl-1m5q7bw-2x3wd949m8yue/aqw098ogo4ryrom.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/debug/incremental/lists-1fztc0st108u1/s-fu1bn4i9vl-1m5q7bw-2x3wd949m8yue/dep-graph.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/debug/incremental/lists-1fztc0st108u1/s-fu1bn4i9vl-1m5q7bw-2x3wd949m8yue/l69yp3kn4ue0hoi.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/debug/incremental/lists-1fztc0st108u1/s-fu1bn4i9vl-1m5q7bw-2x3wd949m8yue/query-cache.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/debug/incremental/lists-1fztc0st108u1/s-fu1bn4i9vl-1m5q7bw-2x3wd949m8yue/v0mxm9wdlxt816p.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/debug/incremental/lists-1fztc0st108u1/s-fu1bn4i9vl-1m5q7bw-2x3wd949m8yue/wb9lpw2yf139xp6.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/debug/incremental/lists-1fztc0st108u1/s-fu1bn4i9vl-1m5q7bw-2x3wd949m8yue/work-products.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/debug/incremental/lists-1fztc0st108u1/s-fu1bn4i9vl-1m5q7bw.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/debug/incremental/lists-36aqnx53oz35f/s-fu1bn4i9lt-1z12e77-6q1rxqw0g0y1/11odjozk02wdqz1m.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/debug/incremental/lists-36aqnx53oz35f/s-fu1bn4i9lt-1z12e77-6q1rxqw0g0y1/12d3y5sffco7jsji.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/debug/incremental/lists-36aqnx53oz35f/s-fu1bn4i9lt-1z12e77-6q1rxqw0g0y1/1dswuowye4dcniat.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/debug/incremental/lists-36aqnx53oz35f/s-fu1bn4i9lt-1z12e77-6q1rxqw0g0y1/2io0iou20bhc3g0e.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/debug/incremental/lists-36aqnx53oz35f/s-fu1bn4i9lt-1z12e77-6q1rxqw0g0y1/2xezorpulilhq9vb.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/debug/incremental/lists-36aqnx53oz35f/s-fu1bn4i9lt-1z12e77-6q1rxqw0g0y1/3l0zax19bjcjacwj.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/debug/incremental/lists-36aqnx53oz35f/s-fu1bn4i9lt-1z12e77-6q1rxqw0g0y1/3s4b0je25splr07h.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/debug/incremental/lists-36aqnx53oz35f/s-fu1bn4i9lt-1z12e77-6q1rxqw0g0y1/4336p81ebwm762tp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/debug/incremental/lists-36aqnx53oz35f/s-fu1bn4i9lt-1z12e77-6q1rxqw0g0y1/462qadt4jpn1cq64.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/debug/incremental/lists-36aqnx53oz35f/s-fu1bn4i9lt-1z12e77-6q1rxqw0g0y1/4676hu9bt82vt3nd.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/debug/incremental/lists-36aqnx53oz35f/s-fu1bn4i9lt-1z12e77-6q1rxqw0g0y1/4cawbzcb269aorbm.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/debug/incremental/lists-36aqnx53oz35f/s-fu1bn4i9lt-1z12e77-6q1rxqw0g0y1/4we7dealgg89w4z.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/debug/incremental/lists-36aqnx53oz35f/s-fu1bn4i9lt-1z12e77-6q1rxqw0g0y1/5dbqs4wnbt9gtldk.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/debug/incremental/lists-36aqnx53oz35f/s-fu1bn4i9lt-1z12e77-6q1rxqw0g0y1/ay5aslb6x96jxhm.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/debug/incremental/lists-36aqnx53oz35f/s-fu1bn4i9lt-1z12e77-6q1rxqw0g0y1/dep-graph.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/debug/incremental/lists-36aqnx53oz35f/s-fu1bn4i9lt-1z12e77-6q1rxqw0g0y1/e9ysls8b6nmteb0.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/debug/incremental/lists-36aqnx53oz35f/s-fu1bn4i9lt-1z12e77-6q1rxqw0g0y1/query-cache.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/debug/incremental/lists-36aqnx53oz35f/s-fu1bn4i9lt-1z12e77-6q1rxqw0g0y1/work-products.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/debug/incremental/lists-36aqnx53oz35f/s-fu1bn4i9lt-1z12e77-6q1rxqw0g0y1/xaizox8tz77r7xc.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/debug/incremental/lists-36aqnx53oz35f/s-fu1bn4i9lt-1z12e77.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/debug/incremental/lists-3tiz1x7w61my5/s-fu1bkls8zq-15jpi45-cztkoaoyyx97/dep-graph.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/debug/incremental/lists-3tiz1x7w61my5/s-fu1bkls8zq-15jpi45-cztkoaoyyx97/query-cache.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/debug/incremental/lists-3tiz1x7w61my5/s-fu1bkls8zq-15jpi45-cztkoaoyyx97/work-products.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/debug/incremental/lists-3tiz1x7w61my5/s-fu1bkls8zq-15jpi45.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/debug/incremental/lists-pzkbzljall9c/s-fu1bkls8zo-1h6d3zq-1v3vv4epcp7p1/dep-graph.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/debug/incremental/lists-pzkbzljall9c/s-fu1bkls8zo-1h6d3zq-1v3vv4epcp7p1/query-cache.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/debug/incremental/lists-pzkbzljall9c/s-fu1bkls8zo-1h6d3zq-1v3vv4epcp7p1/work-products.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/debug/incremental/lists-pzkbzljall9c/s-fu1bkls8zo-1h6d3zq.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/debug/liblists.d" beforeDir="false" afterPath="$PROJECT_DIR$/target/debug/liblists.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/debug/liblists.rlib" beforeDir="false" afterPath="$PROJECT_DIR$/target/debug/liblists.rlib" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../node-metrics/Cargo.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../node-metrics/Cargo.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../smref/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/../smref/src/main.rs" afterDir="false" />
     </list>
@@ -34,6 +122,9 @@
   <component name="MacroExpansionManager">
     <option name="directoryName" value="9ipg0fww" />
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedIndex" value="1" />
+  </component>
   <component name="ProjectId" id="1leeOn1H4Jfhll8QHr8hk9kczgA" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -56,7 +147,7 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="org.rust.cargo.project.model.PROJECT_DISCOVERY" value="true" />
-    <property name="settings.editor.selected.configurable" value="language.rust.cargo" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -72,9 +163,9 @@
       <command value="cargo test" />
     </option>
   </component>
-  <component name="RunManager" selected="Cargo.build">
-    <configuration name="Test second::test::iter" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
-      <option name="command" value="test --package lists --lib second::test::iter -- --exact" />
+  <component name="RunManager" selected="Cargo.Test fifth::test">
+    <configuration name="Test fifth::test" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
+      <option name="command" value="test --package lists --lib fifth::test" />
       <option name="workingDirectory" value="file://$PROJECT_DIR$" />
       <option name="channel" value="DEFAULT" />
       <option name="allFeatures" value="false" />
@@ -87,8 +178,8 @@
         <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test second::test::peek" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
-      <option name="command" value="test --package lists --lib second::test::peek -- --exact" />
+    <configuration name="Test fourth::test" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
+      <option name="command" value="test --package lists --lib fourth::test" />
       <option name="workingDirectory" value="file://$PROJECT_DIR$" />
       <option name="channel" value="DEFAULT" />
       <option name="allFeatures" value="false" />
@@ -101,8 +192,8 @@
         <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test second::test::second_test" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
-      <option name="command" value="test --package lists --lib second::test::second_test -- --exact" />
+    <configuration name="Test third::test::iter" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
+      <option name="command" value="test --package lists --lib third::test::iter -- --exact" />
       <option name="workingDirectory" value="file://$PROJECT_DIR$" />
       <option name="channel" value="DEFAULT" />
       <option name="allFeatures" value="false" />
@@ -116,7 +207,7 @@
       </method>
     </configuration>
     <configuration name="build" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
-      <option name="command" value="build --package lists --lib" />
+      <option name="command" value="build" />
       <option name="workingDirectory" value="file://$PROJECT_DIR$" />
       <option name="channel" value="DEFAULT" />
       <option name="allFeatures" value="false" />
@@ -150,11 +241,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Cargo.build" />
-        <item itemvalue="Cargo.test" />
-        <item itemvalue="Cargo.test" />
+        <item itemvalue="Cargo.Test fifth::test" />
         <item itemvalue="Cargo.test" />
         <item itemvalue="Cargo.build" />
+        <item itemvalue="Cargo.test" />
+        <item itemvalue="Cargo.test" />
       </list>
     </recent_temporary>
   </component>
@@ -174,6 +265,9 @@
       <updated>1607961957081</updated>
       <workItem from="1607961959374" duration="879000" />
       <workItem from="1607965206711" duration="28881000" />
+      <workItem from="1608136443970" duration="14300000" />
+      <workItem from="1608440386935" duration="250000" />
+      <workItem from="1608520519817" duration="9944000" />
     </task>
     <servers />
   </component>
