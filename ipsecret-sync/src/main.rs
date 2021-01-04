@@ -14,15 +14,13 @@ async fn main() -> anyhow::Result<()> {
     env_logger::init();
 
     let client = Client::try_default().await?;
-    let cf = config::ConfigFactory::new(
+    let cf: config::ConfigFactory = config::ConfigFactory::new(
         client.clone(),
         "docker-registry".to_string(),
         "default".to_string(),
     );
 
-    info!("{:?}", cf.read_config().await);
-
-    tokio::spawn(secret::watch_ns(client.clone()));
+    tokio::spawn(secret::watch_ns(client.clone(), cf.clone()));
 
     signal(SignalKind::terminate())?.recv().await;
 

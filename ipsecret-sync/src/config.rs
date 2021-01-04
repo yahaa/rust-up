@@ -4,13 +4,13 @@ use serde::{Deserialize, Serialize};
 
 #[derive(Debug, Clone, Default, Serialize, Deserialize)]
 pub struct Config {
-    server: String,
-    username: String,
-    password: String,
+    pub server: String,
+    pub username: String,
+    pub password: String,
     // if namespaces.len()==0 || namespaces.contains("*")
     // then this config effect all namespace, else this config
     // only effect on the specify namespaces.
-    namespaces: Vec<String>,
+    pub namespaces: Vec<String>,
 }
 
 #[derive(Debug)]
@@ -19,6 +19,7 @@ pub enum Error {
     NotFoundErr { msg: String },
 }
 
+#[derive(Clone)]
 pub struct ConfigFactory {
     client: Client,
     namespace: String,
@@ -34,7 +35,7 @@ impl ConfigFactory {
         }
     }
 
-    pub async fn read_config(&self) -> Result<Config, Error> {
+    pub async fn read_config(&self) -> Result<Vec<Config>, Error> {
         let secret_api: Api<Secret> = Api::namespaced(self.client.clone(), &self.namespace);
 
         let secret: Secret = secret_api
@@ -45,7 +46,7 @@ impl ConfigFactory {
         if let Some(data) = secret.data {
             let byte_str = data.get("registry_secrets").unwrap();
 
-            let config: Config = serde_yaml::from_slice(&byte_str.0).expect("msg");
+            let config: Vec<Config> = serde_yaml::from_slice(&byte_str.0).expect("msg");
             return Ok(config);
         }
 
