@@ -1,7 +1,7 @@
 #[macro_use]
 extern crate log;
 
-mod secret;
+mod worker;
 
 use kube::Client;
 
