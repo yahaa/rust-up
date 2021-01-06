@@ -1,7 +1,5 @@
-use k8s_openapi::api::core::v1::Secret;
-use kube::{Api, Client};
 use serde::{Deserialize, Serialize};
-
+use std::collections::BTreeMap;
 #[derive(Debug, Clone, Default, Serialize, Deserialize)]
 pub struct Config {
     pub server: String,
@@ -13,45 +11,55 @@ pub struct Config {
     pub namespaces: Vec<String>,
 }
 
-#[derive(Debug)]
-pub enum Error {
-    ApiErr { source: kube::Error },
-    NotFoundErr { msg: String },
+#[derive(Debug, Clone, Default, Serialize, Deserialize)]
+pub struct RegistryAuth {
+    auths: BTreeMap<String, UserInfo>,
 }
 
-#[derive(Clone)]
-pub struct ConfigFactory {
-    client: Client,
-    namespace: String,
-    secret: String,
+impl RegistryAuth {
+    pub fn new(username: String, password: String, server: String) -> Self {
+        let mut auths = BTreeMap::new();
+        auths.insert(server, UserInfo::new(username, password));
+
+        RegistryAuth { auths }
+    }
+    pub fn base64_encode(&self) -> String {
+        base64::encode(serde_json::to_string(self).unwrap())
+    }
 }
 
-impl ConfigFactory {
-    pub fn new(client: Client, secret: String, namespace: String) -> Self {
-        ConfigFactory {
-            client,
-            namespace,
-            secret,
+#[derive(Debug, Clone, Default, Serialize, Deserialize)]
+pub struct UserInfo {
+    username: String,
+    password: String,
+    auth: String,
+}
+
+impl UserInfo {
+    fn new(username: String, password: String) -> Self {
+        let auth = base64::encode(format!("{}:{}", username, password));
+        UserInfo {
+            username,
+            password,
+            auth,
         }
     }
+}
 
-    pub async fn read_config(&self) -> Result<Vec<Config>, Error> {
-        let secret_api: Api<Secret> = Api::namespaced(self.client.clone(), &self.namespace);
+#[cfg(test)]
+mod test {
+    use super::RegistryAuth;
 
-        let secret: Secret = secret_api
-            .get(&self.secret)
-            .await
-            .expect("get secret error");
+    #[test]
+    fn base64_encode() {
+        let ra = RegistryAuth::new(
+            "yuanzihua".to_string(),
+            "123456".to_string(),
+            "registry.zihua.com".to_string(),
+        );
 
-        if let Some(data) = secret.data {
-            let byte_str = data.get("registry_secrets").unwrap();
-
-            let config: Vec<Config> = serde_yaml::from_slice(&byte_str.0).expect("msg");
-            return Ok(config);
-        }
-
-        Err(Error::NotFoundErr {
-            msg: "not found".to_string(),
-        })
+        let want="eyJhdXRocyI6eyJyZWdpc3RyeS56aWh1YS5jb20iOnsidXNlcm5hbWUiOiJ5dWFuemlodWEiLCJwYXNzd29yZCI6IjEyMzQ1NiIsImF1dGgiOiJlWFZoYm5wcGFIVmhPakV5TXpRMU5nPT0ifX19";
+        let got = ra.base64_encode();
+        assert_eq!(want, got);
     }
 }
